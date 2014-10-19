@@ -2,11 +2,10 @@
 
 I picked up some wifi controled lights a little while ago & I always thought it would be cool to control them via the web.
 
+I'm ditching a RoR implimentation, I have a dynamic IP at home so running this on on Heroku would be tricky. I'm going to try and make an app for my iPad to handle this instead.
+
 ## Todo
-* Setup the lights controller box to be accessable by heroku.
-* Make some kind of ruby wrapper to send the commands to the controller box
-* Setup heroku scheduler to see if the lights are accessable in the morning, then turn them on https://devcenter.heroku.com/articles/scheduler
-* Setup sweet startup with just a video of me getting out of bed.
+* RubyMotion this!
 
 ## Reference material
 * http://www.philippinestuffs.com/milight-wifi-controlled-light-bulbs/ - This fella documented the UPD codes I need to send.
