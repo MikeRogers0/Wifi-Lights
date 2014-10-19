@@ -1,6 +1,14 @@
-# Add your own tasks in files placed in lib/tasks ending in .rake,
-# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project/template/ios'
 
-require File.expand_path('../config/application', __FILE__)
+begin
+  require 'bundler'
+  Bundler.require
+rescue LoadError
+end
 
-Rails.application.load_tasks
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'Wifi-Lights'
+end
