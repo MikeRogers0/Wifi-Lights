@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08DF54CDF5E3368BDA4B0D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE45F775306116632B081D1F /* libPods.a */; };
+		D819DF3F1A06667B00E17183 /* LightSwitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819DF3E1A06667B00E17183 /* LightSwitches.swift */; };
 		D82679801A0664C20022823C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826797F1A0664C20022823C /* AppDelegate.swift */; };
 		D82679821A0664C20022823C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82679811A0664C20022823C /* FirstViewController.swift */; };
 		D82679841A0664C20022823C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82679831A0664C20022823C /* SecondViewController.swift */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		785499ABBF022C6D1A2597DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BBDEDE2EF3435417104B73C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D819DF3D1A06655800E17183 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D819DF3E1A06667B00E17183 /* LightSwitches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightSwitches.swift; sourceTree = "<group>"; };
 		D826797A1A0664C20022823C /* Wifi Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wifi Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D826797E1A0664C20022823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D826797F1A0664C20022823C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +44,7 @@
 		D82679911A0664C20022823C /* Wifi LightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wifi LightsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82679961A0664C20022823C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D82679971A0664C20022823C /* Wifi_LightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wifi_LightsTests.swift; sourceTree = "<group>"; };
+		EE45F775306116632B081D1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08DF54CDF5E3368BDA4B0D2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +66,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAC48B0E7C75518768CD0B8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBDEDE2EF3435417104B73C4 /* Pods.debug.xcconfig */,
+				785499ABBF022C6D1A2597DA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C45C91839FDAD41B62CE46DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE45F775306116632B081D1F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D82679711A0664C20022823C = {
 			isa = PBXGroup;
 			children = (
 				D826797C1A0664C20022823C /* Wifi Lights */,
 				D82679941A0664C20022823C /* Wifi LightsTests */,
 				D826797B1A0664C20022823C /* Products */,
+				BAC48B0E7C75518768CD0B8C /* Pods */,
+				C45C91839FDAD41B62CE46DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +113,8 @@
 				D82679881A0664C20022823C /* Images.xcassets */,
 				D826798A1A0664C20022823C /* LaunchScreen.xib */,
 				D826797D1A0664C20022823C /* Supporting Files */,
+				D819DF3D1A06655800E17183 /* Bridging-Header.h */,
+				D819DF3E1A06667B00E17183 /* LightSwitches.swift */,
 			);
 			path = "Wifi Lights";
 			sourceTree = "<group>";
@@ -122,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D826799B1A0664C20022823C /* Build configuration list for PBXNativeTarget "Wifi Lights" */;
 			buildPhases = (
+				6FD149D8E66487AFFECCA218 /* Check Pods Manifest.lock */,
 				D82679761A0664C20022823C /* Sources */,
 				D82679771A0664C20022823C /* Frameworks */,
 				D82679781A0664C20022823C /* Resources */,
+				DE14F8686CB8B6EA12248A9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,11 +241,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FD149D8E66487AFFECCA218 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE14F8686CB8B6EA12248A9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D82679761A0664C20022823C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D819DF3F1A06667B00E17183 /* LightSwitches.swift in Sources */,
 				D82679841A0664C20022823C /* SecondViewController.swift in Sources */,
 				D82679801A0664C20022823C /* AppDelegate.swift in Sources */,
 				D82679821A0664C20022823C /* FirstViewController.swift in Sources */,
@@ -338,21 +403,25 @@
 		};
 		D826799C1A0664C20022823C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDEDE2EF3435417104B73C4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Wifi Lights/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wifi Lights/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		D826799D1A0664C20022823C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 785499ABBF022C6D1A2597DA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Wifi Lights/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wifi Lights/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +478,7 @@
 				D826799D1A0664C20022823C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D826799E1A0664C20022823C /* Build configuration list for PBXNativeTarget "Wifi LightsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +487,7 @@
 				D82679A01A0664C20022823C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
