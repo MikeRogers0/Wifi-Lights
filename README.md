@@ -5,7 +5,7 @@ I picked up some wifi controled lights a little while ago & I always thought it 
 I'm ditching a RoR implimentation, I have a dynamic IP at home so running this on on Heroku would be tricky. I'm going to try and make an app for my iPad to handle this instead.
 
 ## Todo
-* RubyMotion this!
+* Swift this!
 
 ## Reference material
 * http://www.philippinestuffs.com/milight-wifi-controlled-light-bulbs/ - This fella documented the UPD codes I need to send.
