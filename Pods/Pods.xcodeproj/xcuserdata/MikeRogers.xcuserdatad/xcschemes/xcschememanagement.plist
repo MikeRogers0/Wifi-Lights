@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Wifi Lights-CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Wifi Lights.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Wifi LightsTests-CocoaAsyncSocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Wifi LightsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>07E0E63B292B49EAA35D4126</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53FCC26DDDCF393E038504E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B389E140E06BBB485A22E2D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A29CFB48F4819B133266D0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B222D2F257AF82F0EBA601E3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DFF3B1ED2ED8CC0EA26F362C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
