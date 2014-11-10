@@ -29,6 +29,8 @@ class EventViewController: UIViewController {
         eventMgr.addEvent(date.date, task: eventData[event.selectedRowInComponent(0)])
         NSNotificationCenter.defaultCenter().postNotificationName("load", object: nil)
         self.dismissViewControllerAnimated(true, completion: nil)
+        
+        //NSTimer(fireDate: <#NSDate#>, interval: <#NSTimeInterval#>, target: <#AnyObject#>, selector: <#Selector#>, userInfo: <#AnyObject?#>, repeats: <#Bool#>)
     }
 }
 
