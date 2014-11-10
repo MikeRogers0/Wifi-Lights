@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D08DF54CDF5E3368BDA4B0D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE45F775306116632B081D1F /* libPods.a */; };
+		D806670D1A1119A10041ECA1 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D806670C1A1119A10041ECA1 /* EventViewController.swift */; };
+		D806670F1A11345A0041ECA1 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D806670E1A11345A0041ECA1 /* EventManager.swift */; };
 		D819DF3F1A06667B00E17183 /* LightSwitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819DF3E1A06667B00E17183 /* LightSwitches.swift */; };
 		D82679801A0664C20022823C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D826797F1A0664C20022823C /* AppDelegate.swift */; };
 		D82679821A0664C20022823C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82679811A0664C20022823C /* FirstViewController.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		785499ABBF022C6D1A2597DA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BBDEDE2EF3435417104B73C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D806670C1A1119A10041ECA1 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		D806670E1A11345A0041ECA1 /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventManager.swift; path = ../EventManager.swift; sourceTree = "<group>"; };
 		D819DF3D1A06655800E17183 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		D819DF3E1A06667B00E17183 /* LightSwitches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightSwitches.swift; sourceTree = "<group>"; };
 		D826797A1A0664C20022823C /* Wifi Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wifi Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				D826797F1A0664C20022823C /* AppDelegate.swift */,
+				D806670E1A11345A0041ECA1 /* EventManager.swift */,
 				D82679811A0664C20022823C /* FirstViewController.swift */,
 				D82679831A0664C20022823C /* SecondViewController.swift */,
 				D82679851A0664C20022823C /* Main.storyboard */,
@@ -115,6 +120,7 @@
 				D826797D1A0664C20022823C /* Supporting Files */,
 				D819DF3D1A06655800E17183 /* Bridging-Header.h */,
 				D819DF3E1A06667B00E17183 /* LightSwitches.swift */,
+				D806670C1A1119A10041ECA1 /* EventViewController.swift */,
 			);
 			path = "Wifi Lights";
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D806670F1A11345A0041ECA1 /* EventManager.swift in Sources */,
+				D806670D1A1119A10041ECA1 /* EventViewController.swift in Sources */,
 				D819DF3F1A06667B00E17183 /* LightSwitches.swift in Sources */,
 				D82679841A0664C20022823C /* SecondViewController.swift in Sources */,
 				D82679801A0664C20022823C /* AppDelegate.swift in Sources */,
